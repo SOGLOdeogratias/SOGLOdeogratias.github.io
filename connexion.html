@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Deo-Gratias SOGLO\Desktop\Baby house\style.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <center>
+        <form action="/rechercher" method="get">
+            <input type="search" id="search" name="query" placeholder="Tapez votre recherche ici...">
+        </form>
+         <ul class="horizontal-list">
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="habits.html">Habits</a></li>
+            <li><a href="Accesoires.html">Accessoires</a></li>
+            <li><a href="connexion.html">Se connecter</a></li>
+            <li><a href="panier.html">Panier</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+        </ul>
+</center>
+<div class="login-container">
+    <h2>Connexion</h2>
+    <form action="#" method="POST" class="login-form">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="password">Mot de passe</label>
+        <input type="password" id="password" name="password" required>
+        
+        <button type="submit">Se connecter</button>
+        
+        <div class="register-link">
+            <p>Pas encore inscrit? <a href="#">Créer un compte</a></p>
+        </div>
+    </form>
+</div>
